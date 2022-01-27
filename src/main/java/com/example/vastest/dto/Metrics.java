@@ -2,8 +2,8 @@ package com.example.vastest.dto;
 
 import java.util.HashMap;
 
-import org.springframework.boot.configurationprocessor.json.JSONException;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -3,8 +3,8 @@ package com.example.vastest.service;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.springframework.boot.configurationprocessor.json.JSONException;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

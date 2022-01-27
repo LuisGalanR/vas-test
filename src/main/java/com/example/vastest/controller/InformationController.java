@@ -3,7 +3,7 @@ package com.example.vastest.controller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import org.springframework.boot.configurationprocessor.json.JSONException;
+import org.json.JSONException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

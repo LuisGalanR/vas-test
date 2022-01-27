@@ -3,8 +3,8 @@ package com.example.vastest.dto;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.boot.configurationprocessor.json.JSONException;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
 import lombok.Data;
