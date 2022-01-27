@@ -3,7 +3,6 @@ package com.example.vastest.controller;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -20,7 +19,6 @@ import com.example.vastest.utils.Validators;
 @RestController()
 public class InformationController {
 
-	@Autowired
 	private InformationService informationService;
 
 	public InformationController(InformationService informationService) {
