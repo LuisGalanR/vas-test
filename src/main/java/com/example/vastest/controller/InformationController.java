@@ -57,5 +57,11 @@ public class InformationController {
 		informationService.clear();
 		return new ResponseEntity<String>("Data cleared", HttpStatus.ACCEPTED);
 	}
+	
+	@GetMapping("/")
+	public ResponseEntity<String> welcome() {
+		return new ResponseEntity<String>("Insert one endpoint in the URL", HttpStatus.OK);
+	}
+	
 
 }
